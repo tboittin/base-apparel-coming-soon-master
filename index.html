@@ -34,32 +34,42 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="logo">
-        <img src="images/logo.svg" />
+      <div class="left">
+        <div class="logo">
+          <img src="images/logo.svg" alt="Base Apparel" />
+        </div>
+        <div class="mobile">
+          <img src="./images/hero-mobile.jpg" alt="" />
+        </div>
+        <h1><span>We're</span> coming soon</h1>
+        <div class="description">
+          <p>
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email below to stay up-to-date with announcements
+            and our launch deals.
+          </p>
+        </div>
+        <form>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Email Address"
+            oninvalid="this.classList.add('invalid'); this.setCustomValidity(' '); document.getElementById('error').style.display='block';"
+            required
+          />
+
+          <div class="button-position">
+            <button>
+              <img src="./images/icon-arrow.svg" alt="Submit" />
+            </button>
+          </div>
+        </form>
+        <p class="error-message" id="error">Please provide a valid email</p>
       </div>
-      <div class="hero-mobile">
-        <img src="./images/hero-mobile.jpg" />
+      <div class="right desktop">
+        <img src="./images/hero-desktop.jpg" alt="" />
       </div>
-      <h1><span>We're</span> coming soon</h1>
-      <div class="description">
-        <p>
-          Hello fellow shoppers! We're currently building our new fashion store.
-          Add your email below to stay up-to-date with announcements and our
-          launch deals.
-        </p>
-      </div>
-      <form>
-        <input
-          type="text"
-          id="email"
-          name="email"
-          placeholder="Email Address"
-          required
-        />
-        <button>
-          <img src="./images/icon-arrow.svg" />
-        </button>
-      </form>
     </div>
 
     <!-- <footer>
