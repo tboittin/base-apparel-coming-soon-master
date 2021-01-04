@@ -56,7 +56,7 @@
             id="email"
             name="email"
             placeholder="Email Address"
-            oninvalid="this.classList.add('invalid'); this.setCustomValidity(' '); document.getElementById('error').style.display='block';"
+            oninvalid="event.preventDefault();this.classList.add('invalid'); this.setCustomValidity(' '); document.getElementById('error').style.display='block';"
             required
           />
 

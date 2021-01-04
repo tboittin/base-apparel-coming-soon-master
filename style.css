@@ -116,6 +116,7 @@ body {
   align-items: center;
   justify-content: center;
   box-shadow: 0 5px 10px 1px #f8bfbf;
+  outline: none;
 }
 .wrapper .left .error-message {
   display: none;
