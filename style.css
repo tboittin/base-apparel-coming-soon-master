@@ -1,11 +1,16 @@
 html {
   font-size: 16px;
   font-family: "Josefin Sans", sans-serif;
+  overflow-y: overlay;
 }
 
 body {
   height: 100vh;
   background: linear-gradient(135deg, white, #fff5f5);
+}
+
+.wrapper h1 span {
+  color: #ce9797;
 }
 
 /*# sourceMappingURL=style.css.map */
