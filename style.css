@@ -1,0 +1,11 @@
+html {
+  font-size: 16px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, white, #fff5f5);
+}
+
+/*# sourceMappingURL=style.css.map */
