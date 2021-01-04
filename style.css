@@ -71,6 +71,9 @@ body {
   display: flex;
   width: 80%;
 }
+.wrapper .left form label {
+  display: none;
+}
 .wrapper .left form input,
 .wrapper .left form button {
   border-radius: 20px;

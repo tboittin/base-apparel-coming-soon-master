@@ -78,6 +78,10 @@ body {
             display: flex;
             width: 80%;
 
+            label {
+                display: none;
+            }
+
             input,
             button {
                 border-radius: 20px;
